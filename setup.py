@@ -16,7 +16,7 @@ setup_requires = []
 tests_require = ['scikit-learn', 'scikit-image']
 
 with open("README.md", 'r') as f:
-    long_description = f.read()
+    long_description = ""
 
 setup(
     name=about['__title__'],
